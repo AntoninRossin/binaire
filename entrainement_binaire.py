@@ -54,9 +54,7 @@ def et(x,y):
     a = len(x)
     b = len(y)
     if a<b:
-        temp = x
-        x = y
-        y = temp
+        x,y = y,x
     a = len(x)
     b = len(y)
     result = x
@@ -74,9 +72,7 @@ def xor(x,y):
     a = len(x)
     b = len(y)
     if a<b:
-        temp = x
-        x = y
-        y = temp
+        x,y = y,x
     a = len(x)
     b = len(y)
     result = x
